@@ -2,7 +2,7 @@ cluster:
   clusterName: "jenkinsx"
   environmentGitOwner: "doncorley"
   environmentGitPublic: false
-  project: "jx"
+  project: "doncorley-jx"
   provider: gke
   zone: "us-east1"
 gitops: true
@@ -11,12 +11,12 @@ environments:
 - key: staging
 - key: production
 ingress:
-  domain: "tourtenant"
+  domain: "tourtenant.com"
   externalDNS: true
   tls:
-    email: "don@tourdemo.com"
-    enabled: true
-    production: true
+    email: "don@tourgeek.com"
+    enabled: false
+    production: false
 kaniko: true
 secretStorage: vault
 storage:
