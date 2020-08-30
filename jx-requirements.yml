@@ -1,5 +1,5 @@
 cluster:
-  clusterName: "jenkinsx"
+  clusterName: "doncorleyjx"
   environmentGitOwner: "doncorley"
   environmentGitPublic: false
   project: "doncorley-jx"
@@ -15,8 +15,8 @@ ingress:
   externalDNS: true
   tls:
     email: "don@tourgeek.com"
-    enabled: false
-    production: false
+    enabled: true
+    production: true
 kaniko: true
 secretStorage: vault
 storage:
